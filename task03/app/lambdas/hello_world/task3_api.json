@@ -12,9 +12,7 @@
                         "lambdaFunction": "hello_world",
                         "response": {
                             "statusCode": 200,
-                            "message": {
-                                "message": "Hello from Lambda"
-                            }
+                            "message":"Hello from Lambda"
                         }
                     }
                 ]
