@@ -1,0 +1,18 @@
+{
+  "sqs_handler-role": {
+    "predefined_policies": [],
+    "principal_service": "lambda",
+    "custom_policies": [
+      "lambda-basic-execution"
+    ],
+    "resource_type": "iam_role",
+    "tags": {},
+    "Effect": "Allow",
+    "Action": [
+    "sqs:ReceiveMessage",
+    "sqs:DeleteMessage",
+    "sqs:GetQueueAttributes"
+    ],
+    "Resource": "arn:aws:sqs:eu-central-1:196241772369:async_queue"
+  }
+}
