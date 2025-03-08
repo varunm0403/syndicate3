@@ -1,0 +1,24 @@
+{
+    "api_gateway": {
+        "name": "task3_api",
+        "stage": "api",
+        "resources": [
+            {
+                "path": "/hello",
+                "methods": [
+                    {
+                        "httpMethod": "GET",
+                        "authorizationType": "NONE",
+                        "lambdaFunction": "hello_world",
+                        "response": {
+                            "statusCode": 200,
+                            "body": {
+                                "message": "Hello from Lambda"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
