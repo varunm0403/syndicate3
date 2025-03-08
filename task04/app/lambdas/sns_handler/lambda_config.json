@@ -11,7 +11,8 @@
   "dependencies": [],
   "event_sources": [
     {
-      "arn": "${SNS_TOPIC_ARN}"
+      "type": "sns",
+      "arn": "arn:aws:sns:eu-central-1:196241772369:cmtr-b3cf9707-lambda_topic-45hl"
     }
   ],
   "env_variables": {},

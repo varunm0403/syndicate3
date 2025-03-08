@@ -11,7 +11,8 @@
   "dependencies": [],
   "event_sources": [
     {
-        "arn": "${SQS_QUEUE_ARN}"
+      "type": "sqs",
+      "arn": "arn:aws:sqs:eu-central-1:196241772369:cmtr-b3cf9707-async_queue-45hl"
     }
   ],
   "env_variables": {},
