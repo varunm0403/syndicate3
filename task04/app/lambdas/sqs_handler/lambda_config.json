@@ -9,7 +9,12 @@
   "timeout": 100,
   "lambda_path": "lambdas\\sqs_handler",
   "dependencies": [],
-  "event_sources": [],
+  "event_sources": [
+    {
+      "event_source_arn": "${sqs_arn}",
+      "event_source_type": "sqs"
+    }
+  ],
   "env_variables": {},
   "publish_version": true,
   "alias": "${lambdas_alias_name}",

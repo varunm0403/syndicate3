@@ -9,7 +9,12 @@
   "timeout": 100,
   "lambda_path": "lambdas\\sns_handler",
   "dependencies": [],
-  "event_sources": [],
+  "event_sources": [
+    {
+      "event_source_arn": "${sns_arn}",
+      "event_source_type": "sns"
+    }
+  ],
   "env_variables": {},
   "publish_version": true,
   "alias": "${lambdas_alias_name}",
