@@ -11,8 +11,8 @@
   "dependencies": [],
   "event_sources": [
     {
-      "event_source_arn": "${sns_arn}",
-      "event_source_type": "sns"
+      "type": "sns",
+      "arn": "${SNS_TOPIC_ARN}"
     }
   ],
   "env_variables": {},

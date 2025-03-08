@@ -11,8 +11,8 @@
   "dependencies": [],
   "event_sources": [
     {
-      "event_source_arn": "${sqs_arn}",
-      "event_source_type": "sqs"
+        "type": "sqs",
+        "arn": "${SQS_QUEUE_ARN}"
     }
   ],
   "env_variables": {},
