@@ -9,12 +9,7 @@
   "timeout": 100,
   "lambda_path": "lambdas\\sqs_handler",
   "dependencies": [],
-  "event_sources": [
-    {
-      "type": "sqs",
-      "arn": "arn:aws:sqs:eu-central-1:196241772369:cmtr-b3cf9707-async_queue-45hl"
-    }
-  ],
+  "event_sources": [],
   "env_variables": {},
   "publish_version": true,
   "alias": "${lambdas_alias_name}",
